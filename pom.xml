@@ -176,6 +176,9 @@
             <outputFormat>CSV</outputFormat>
             <outputFormat>XML</outputFormat>
           </outputFormats>
+          <excludedMethods>
+            <param>hashCode</param>
+          </excludedMethods>
           <mutationThreshold>100</mutationThreshold>
         </configuration>
       </plugin>
